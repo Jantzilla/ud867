@@ -34,8 +34,7 @@ class HelloTask extends DefaultTask {
     }
 }
 
-/*
+
 task derpy << {
     primp "Herp de derp"
 }
-*/
