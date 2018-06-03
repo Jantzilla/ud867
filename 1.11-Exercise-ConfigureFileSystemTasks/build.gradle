@@ -41,3 +41,8 @@ task bundleWeb(type: Zip, dependsOn: copyWeb) {
     from 'build/web'
     exclude 'images/**'
 }
+
+task unpackBundle(type: Copy, dependsOn: bundleWeb) {
+    from zipTree('build/web.zip')
+    into 'build/exploded'
+}
