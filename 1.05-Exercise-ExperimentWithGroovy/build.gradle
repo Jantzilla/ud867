@@ -30,6 +30,8 @@ task stringsAndTypes {
         // TODO: Assign the current date to foo and print it, along with its type
         // HINT:
         // http://docs.oracle.com/javase/7/docs/api/java/util/package-summary.html
+	foo = new java.util.Date()
+        println "foo is now of type: ${foo.class} and has value: $foo"
 
 
         // TODO: Use the `substring` method to extract my name from this string
