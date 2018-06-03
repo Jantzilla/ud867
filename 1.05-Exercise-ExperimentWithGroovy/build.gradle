@@ -36,6 +36,7 @@ task stringsAndTypes {
 
         // TODO: Use the `substring` method to extract my name from this string
         def hello = "Hello, Jeremy."
+        def name = hello.substring(7, 13)
 
         // TODO: Use `toUpperCase` to capitalize and print my name
 
