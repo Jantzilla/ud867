@@ -39,7 +39,7 @@ task stringsAndTypes {
         def name = hello.substring(7, 13)
 
         // TODO: Use `toUpperCase` to capitalize and print my name
-
+	println name.toUpperCase()
     }
 }
 
