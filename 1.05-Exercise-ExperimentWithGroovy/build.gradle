@@ -25,6 +25,7 @@ task stringsAndTypes {
 
         // TODO: Use string interpolation to print the square root of 127
         // HINT: http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html
+	println Math.sqrt(127)
 
         // TODO: Assign the current date to foo and print it, along with its type
         // HINT:
