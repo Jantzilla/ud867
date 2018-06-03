@@ -46,6 +46,7 @@ task pour {
 }
 
 task addSweetener {
+	dependsOn pour
     doLast {
         println "Adding sweetener. Stir, stir, stir."
     }
@@ -53,6 +54,7 @@ task addSweetener {
 
 task drink {
 	dependsOn pour
+	mustRunAfter addSweetener
     doLast {
         println "Drinking. Gulp, gulp, gulp."
     }
