@@ -20,6 +20,10 @@ https://docs.gradle.org/current/dsl/org.gradle.api.Task.html#org.gradle.api.Task
 task hello {
 
     description = 'This is my first Gradle task'
+
+    doLast {
+        println 'Hello World!'
+    }
 }
 
 */
