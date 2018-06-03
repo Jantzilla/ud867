@@ -16,4 +16,10 @@ Exercises:
 
 */
 
-class HelloTask extends DefaultTask {}
+class HelloTask extends DefaultTask {
+
+@TaskAction
+void doAction() {
+println "Executing my custom task"
+}
+}
