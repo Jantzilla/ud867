@@ -29,7 +29,7 @@ class HelloTask extends DefaultTask {
     @TaskAction
     void doAction() {
         logger.info 'Start HelloTask Action'
-        println 'Hello World'
+        logger.lifecycle 'Hello World'
         logger.info 'End HelloTask Action'
     }
 }
