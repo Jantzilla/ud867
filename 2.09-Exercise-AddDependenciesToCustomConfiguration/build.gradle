@@ -28,3 +28,7 @@ apply plugin: 'java'
 repositories {
     mavenCentral()
 }
+
+configurations {
+    deps
+}
