@@ -24,3 +24,5 @@ solution file into this one.
 apply plugin: 'java'
 
 apply plugin: 'application'
+
+mainClassName = "com.udacity.gradle.JokeTeller"
