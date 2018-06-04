@@ -31,6 +31,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    compile 'commons-io:commons-io:2.5'
+}
+
 task printDependencies {
     doLast {
         configurations.compile.each { println it.name }
