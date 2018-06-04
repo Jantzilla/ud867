@@ -27,6 +27,10 @@ http://search.maven.org/
 
 apply plugin: 'java'
 
+repositories {
+    mavenCentral()
+}
+
 task printDependencies {
     doLast {
         configurations.compile.each { println it.name }
