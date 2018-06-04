@@ -33,3 +33,7 @@ configurations {
     deps
     compile.extendsFrom deps
 }
+
+dependencies {
+    deps 'com.google.guava:guava:25.1-jre'
+}
