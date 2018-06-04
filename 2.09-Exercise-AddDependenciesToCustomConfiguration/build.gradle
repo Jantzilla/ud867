@@ -31,4 +31,5 @@ repositories {
 
 configurations {
     deps
+    compile.extendsFrom deps
 }
