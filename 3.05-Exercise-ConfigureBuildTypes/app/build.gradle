@@ -38,6 +38,14 @@ android {
     }
 }
 
+android {
+    buildTypes {
+        debug {
+            applicationIdSuffix "debug"
+        }
+    }
+}
+
 /*
 
 To use our solution, uncomment the following line.
